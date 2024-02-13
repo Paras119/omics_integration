@@ -1,0 +1,8 @@
+the code starts by the import of library - cobra and reframed.FBA and reframed.load_cbmodel
+it follows the procedure to import the organism metabolic model in cbmodel format, cobra.load_sbml does work here due to the different formats, one used for the function is the cbodel format.
+
+perform gimme algorithm
+
+define the solver to perform FBA of the created model.
+
+FBA function always crashes the kernel, maybe to the limitations in the computational power of the system
