@@ -1,0 +1,106 @@
+{
+    "metadata": [
+        [
+            6,
+            "shewanella_lactate_anaerobic_pyruvate",
+            "KBaseFBA.FBAModel-15.0",
+            "2024-02-06T06:24:50+0000",
+            1,
+            "paras119",
+            169792,
+            "paras119:narrative_1707200261086",
+            "40ca72947d4753410d06ef2ae6f4071e",
+            577414,
+            {
+                "Genome": "169792/3/1",
+                "Name": "shewanella_lactate_anaerobic_pyruvate",
+                "Number biomasses": "1",
+                "Number compartments": "2",
+                "Number compounds": "521",
+                "Number gapfills": "2",
+                "Number gapgens": "0",
+                "Number reactions": "463",
+                "Source": "KBase",
+                "Source ID": "shewanella_lactate_anaerobic_pyruvate",
+                "Type": "GenomeScale"
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2024-02-06T06:24:49+0000",
+            "creator": "paras119",
+            "epoch": 1707200689664,
+            "extracted_ids": {},
+            "info": [
+                6,
+                "shewanella_lactate_anaerobic_pyruvate",
+                "KBaseFBA.FBAModel-15.0",
+                "2024-02-06T06:24:50+0000",
+                1,
+                "paras119",
+                169792,
+                "paras119:narrative_1707200261086",
+                "40ca72947d4753410d06ef2ae6f4071e",
+                577414,
+                {
+                    "Genome": "169792/3/1",
+                    "Name": "shewanella_lactate_anaerobic_pyruvate",
+                    "Number biomasses": "1",
+                    "Number compartments": "2",
+                    "Number compounds": "521",
+                    "Number gapfills": "2",
+                    "Number gapgens": "0",
+                    "Number reactions": "463",
+                    "Source": "KBase",
+                    "Source ID": "shewanella_lactate_anaerobic_pyruvate",
+                    "Type": "GenomeScale"
+                }
+            ],
+            "orig_wsid": 169792,
+            "path": [
+                "169792/6/1"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "external_data": [],
+                    "input_ws_objects": [],
+                    "intermediate_incoming": [],
+                    "intermediate_outgoing": [],
+                    "method": "build_metabolic_model",
+                    "method_params": [
+                        {
+                            "accept_charge_imbalanced": 0,
+                            "accept_mass_imbalanced": 0,
+                            "atpmedia": "Pyr",
+                            "classic": 0,
+                            "custom_bound_list": [],
+                            "fbamodel_output_id": "shewanella_lactate_anaerobic_pyruvate",
+                            "gapfill_model": 1,
+                            "genome_id": "169792/3/1",
+                            "media_id": "169792/5/2",
+                            "media_supplement_list": "",
+                            "merge_all_annotations": 0,
+                            "minimum_target_flux": 0.1,
+                            "source_ontology_list": "",
+                            "template_id": "gramneg",
+                            "use_annotated_functions": 1,
+                            "use_nontemplate_reactions": 0,
+                            "workspace": "paras119:narrative_1707200261086"
+                        }
+                    ],
+                    "resolved_ws_objects": [],
+                    "service": "fba_tools",
+                    "subactions": []
+                }
+            ],
+            "refs": [
+                "169792/3/1",
+                "262/535/3",
+                "169792/5/2"
+            ]
+        }
+    ]
+}

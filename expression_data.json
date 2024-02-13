@@ -1,0 +1,80 @@
+{
+  "metadata" : [
+    [
+      2,
+      "Shewanella_MR-1_M3D_ExpData",
+      "KBaseFeatureValues.ExpressionMatrix-1.0",
+      "2024-02-06T06:18:27+0000",
+      1,
+      "paras119",
+      169792,
+      "paras119:narrative_1707200261086",
+      "0e03f7638fa63ae8be525ce31f2890fe",
+      16747699,
+      {
+        "Genome" : "2901/64/1",
+        "condition_count" : "245",
+        "feature_count" : "4025",
+        "scale" : "1.0",
+        "type" : "untransformed"
+      }
+    ]
+  ],
+  "provenance" : [
+    {
+      "copy_source_inaccessible" : null,
+      "created" : "2015-09-07T22:00:19+0000",
+      "creator" : "msneddon",
+      "extracted_ids" : null,
+      "info" : [
+        2,
+        "Shewanella_MR-1_M3D_ExpData",
+        "KBaseFeatureValues.ExpressionMatrix-1.0",
+        "2024-02-06T06:18:27+0000",
+        1,
+        "paras119",
+        169792,
+        "paras119:narrative_1707200261086",
+        "0e03f7638fa63ae8be525ce31f2890fe",
+        16747699,
+        {
+          "Genome" : "2901/64/1",
+          "condition_count" : "245",
+          "feature_count" : "4025",
+          "scale" : "1.0",
+          "type" : "untransformed"
+        }
+      ],
+      "provenance" : [
+        {
+          "custom" : { },
+          "description" : "Reconnection of matrix rows to genome features",
+          "external_data" : [ ],
+          "input_ws_objects" : [
+            "10269/5/1"
+          ],
+          "intermediate_incoming" : [ ],
+          "intermediate_outgoing" : [ ],
+          "method" : "reconnect_matrix_to_genome",
+          "method_params" : [
+            {
+              "genome_ref" : "2901/64",
+              "input_data" : "10269/5/1",
+              "out_matrix_id" : "Shewanella_oneidensis_MR1_M3D_ExpData_mapped",
+              "out_workspace" : "msneddon:1441658345655"
+            }
+          ],
+          "resolved_ws_objects" : [
+            "10269/5/1"
+          ],
+          "service" : "KBaseFeatureValues",
+          "service_ver" : "0.8",
+          "subactions" : [ ]
+        }
+      ],
+      "refs" : [
+        "2901/64/1"
+      ]
+    }
+  ]
+}
